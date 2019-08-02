@@ -7,6 +7,6 @@
 [tcpdump](https://github.com/alex-aleyan/linux_wiki/wiki/tcpdump) \
 [user, group, passwd](https://github.com/alex-aleyan/linux_wiki/wiki/user,-group,-passwd) \
 [vi, vim, vimdiff](https://github.com/alex-aleyan/linux_wiki/wiki/vi,-vim,-vimdiff) \
-[yum](https://github.com/alex-aleyan/linux_wiki/wiki/yum) \
+[yum](https://github.com/alex-aleyan/linux_wiki/wiki/yum)
 
 
