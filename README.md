@@ -1,4 +1,4 @@
-### [wiki](https://github.com/alex-aleyan/linux_wiki/wiki)
+### [Linux Wiki](https://github.com/alex-aleyan/linux_wiki/wiki)
 
 - [cli](https://github.com/alex-aleyan/linux_wiki/wiki/CLI-(FIXME:-clean-it-up))
 - [disk](https://github.com/alex-aleyan/linux_wiki/wiki/disk-partitioning-(pv,-vg,-lv))
