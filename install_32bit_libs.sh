@@ -16,6 +16,19 @@ libXft.i686
 ncurses-libs.i686
 libstdc++*
 libstdc++*686
+unixODBC-libs*i686
+unixODBC*i686
+ncurses*i686
+ncurses-libs*i686
+libzmq3*i686
+libXext*i686
+alsalib*i686
+libXtst*i686
+libXft*i686
+libxml2*i686
+libedit*i686
+libX11*i686
+libXi*i686
 )
 
 install_32_libs=(
