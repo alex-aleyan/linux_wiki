@@ -2,6 +2,7 @@
 
 #lsb_release -r | sed -n -e 's/^Release:\s//p'
 
+
 # Determine if we running centos6 or centos7
 centos_version="$( lsb_release -r | sed -n -e 's/^Release:\s//p' \
                                   | awk -v RS=[0-9]+ '{print RT+0;exit}'  )"
