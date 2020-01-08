@@ -10,7 +10,7 @@ alias lspdf="evince"
 
 #git
 alias gitcd='cd $(git rev-parse --show-cdup)'
-alias gitlog="echo 'Commits: $(git log --pretty=oneline --abbrev-commit | wc -l)' ; git log --pretty=oneline --abbrev-commit"
+alias gitlog='echo "Commits: $(git log --pretty=oneline --abbrev-commit | wc -l)" ; git log --pretty=oneline --abbrev-commit'
 
 #Altera Path & Enviroment:
 export ALTERA_DIR="/opt/tools/intelFPGA_lite/16.1"
@@ -126,4 +126,5 @@ esac
 
 :w
 :0
+
 
