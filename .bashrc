@@ -10,6 +10,7 @@ alias lspdf="evince"
 
 #git
 alias gitcd='cd $(git rev-parse --show-cdup)'
+alias gitlog='log --pretty=oneline --abbrev-commit'
 
 #Altera Path & Enviroment:
 export ALTERA_DIR="/opt/tools/intelFPGA_lite/16.1"
@@ -122,3 +123,4 @@ case $USER in
 		echo -en "\033]0;$USER:$PWD ${CLEARCASE_ROOT##*/}\a"
 	;;
 esac
+
