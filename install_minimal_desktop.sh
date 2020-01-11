@@ -1,6 +1,6 @@
 #!/bin/bash
 
-yum_centos_repo='yum -y --disablerepo="*" --enablerepo="*centos_7*"'
+alias yum_centos_repo='yum -y --disablerepo="*" --enablerepo="*centos_7*"'
 
 # Determine if we running centos6 or centos7
 centos_version="$( lsb_release -r | sed -n -e 's/^Release:\s//p' \
