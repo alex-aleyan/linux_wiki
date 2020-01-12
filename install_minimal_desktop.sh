@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# systemctl isolate multi-user.target
+# systemctl isolate graphical.target
+
 alias yum_centos_repo='yum -y --disablerepo="*" --enablerepo="*centos*"'
 
 # Determine if we running centos6 or centos7
