@@ -108,312 +108,75 @@
   108  yum-config-manager --enable "*"
   109  yum repolist all
   110  systemctl isolate graphical.target
-  111  cd ~
-  112  vim test.sh
-  113  chmod 775 test.sh 
-  114  ./test.sh 
-  115  vim test.sh
-  116  ./test.sh 
-  117  vim test.sh
-  118  ./test.sh 
-  119  vim test.sh
-  120  . test.sh 
-  121  yum_test wireshark-gnome
-  122  yum_test install wireshark-gnome
-  123  vim test.sh
-  124  yum --disablerepo="*" --enablerepo="*centos*" install wireshark-gnome
-  125  vim test.sh
-  126  . test.sh 
-  127  yum_test install wireshark-gnome
-  128  vim test.sh
-  129  cat test.sh 
-  130  yum --disablerepo="*" --enablerepo="*centos_7*" wireshark-gnome
-  131  yum --disablerepo="*" --enablerepo="*centos_7*" install wireshark-gnome
-  132  yum --disablerepo="*" --enablerepo="*centos7*" install wireshark-gnome
-  133  yum --disablerepo="*" --enablerepo="*centos*" install wireshark-gnome
-  134  yum --disablerepo="*" --enablerepo="*centos*" repolist all
-  135  vim test.sh
-  136  . test.sh 
-  137  yum_test install wireshark-gnome
-  138  ll
-  139  cat test.sh 
-  140  alias
-  141  ll
-  142  cd ~
-  143  ll
-  144  alias
-  145   cat test.sh 
-  146  cd /opt/
-  147  ll
-  148  mkdir gitrepos
-  149  ll
-  150  cd gitrepos/
-  151  ll
-  152  git
-  153  git config -l
-  154  git config --global http.proxy http://proxy-lmi.lmco.com:80
-  155  git config --global https.proxy https://proxy-lmi.lmco.com:80
-  156  ping github.com
-  157  git config -l
-  158  git config --global https.proxy https://proxy-lmi.global.lmco.com:80
-  159  git config --global http.proxy http://proxy-lmi.global.lmco.com:80
-  160  git config -l
-  161  ping github.com
-  162  git config --global https.sslverify false
-  163  git config --global http.sslverify false
-  164  git config -l
-  165  ping github.com
-  166  git config --global http.postbuffer1073741824
-  167  git config --global https.postbuffer1073741824
-  168  ping github.com
-  169  ll
-  170  pwd
-  171  git clone https://alex-aleyan@github.com/alex-aleyan/linux_wiki.git
-  172  ll
-  173  ping github.com
-  174  ping www.github.com
-  175  wget -p http://github.com
-  176  yum install wget
-  177  ll
-  178  yum repolist all
-  179  cd /etc/yum.repos.d/
-  180  ll
-  181  rm -rf e*
-  182  ll
-  183  rm rf mirror.centos.org_centos-7_7.7.1908_os_x86_64.repo  OpenHPC.repo 
-  184  ll
-  185  vim CentOS-Media.repo 
-  186  cd /opt/gitrepos/
-  187  ll
-  188  cd linux_wiki/
-  189  ll
-  190  vim install_centos7_repos.sh 
-  191  git status
-  192  git add install_centos7_repos.sh 
-  193  ll
-  194  ./install_centos7_repos.sh 
-  195  vim /etc/yum.conf 
-  196  ./install_centos7_repos.sh 
-  197  vim /etc/yum.conf 
-  198  cat ./install_centos7_repos.sh 
-  199  yum install https://dl.fedoraproject.org/pub/epel/7/x86_64
-  200  yum repolist all
-  201  yum install https://dl.fedoraproject.org/pub/epel/7/x86_64
-  202  yum-config-manager --addrepo https://dl.fedoraproject.org/pub/epel/7/x86_64
-  203  yum-config-manager --add-repo https://dl.fedoraproject.org/pub/epel/7/x86_64
-  204  yum repolist all
-  205  vim install_centos7_repos.sh 
-  206  ./install_centos7_repos.sh 
-  207  yum repolist all
-  208  vim install_centos7_repos.sh 
-  209  yum repolist all
-  210  ./install_centos7_repos.sh 
-  211  yum clean all
-  212  vim install_centos7_repos.sh 
-  213  ./install_centos7_repos.sh 
-  214  yum repolist all
-  215  cd /etc/yum
-  216  cd /etc/yum.repos.d/
-  217  ll
-  218  rm -f dl.fedoraproject.org_pub_epel_7_x86_64.repo 
-  219  yum clean all
-  220  rm -rf /var/cache/yum/*
-  221  ./install_centos7_repos.sh 
-  222  cd /opt/gitrepos/linux_wiki/
-  223  ./install_centos7_repos.sh 
-  224  yum repolist all
-  225  cd /etc/yum.er
-  226  cd /etc/yum.repos.d/
-  227  ll
-  228  vim CentOS-Media.repo 
-  229  rm -rf /var/cache/yum/*
-  230  yum clean all
-  231  yum repolist all
-  232  ./install_centos7_repos.sh 
-  233  cd /opt/gitrepos/linux_wiki/
-  234  ./install_centos7_repos.sh 
-  235  rm -rf /var/tmp/yum-root-zInuNv/*
-  236  ./install_centos7_repos.sh 
-  237  yum repolist all
-  238  rm -rf /var/tmp/yum-root-zInuNv/
-  239  rm -rf /var/tmp/yum-root-zInuNv
-  240  yum repolist all
-  241  yum clean all
-  242  ./install_centos7_repos.sh 
-  243  yum repolsit all
-  244  yum repolist all
-  245  cd /etc/yum.repos.d/
-  246  ll
-  247  vim CentOS-Media.repo 
-  248  yum repolist all
-  249  vim /etc/yum.conf 
-  250  service network restart
-  251  yum repolist all
-  252  /opt/gitrepos/linux_wiki/install_centos7_repos.sh 
-  253  ll
-  254  vim /etc/environment 
-  255  service network restart
-  256  /opt/gitrepos/linux_wiki/install_centos7_repos.sh 
-  257  vim /etc/yum.conf 
-  258  reboot now
-  259  cd /opt/gitrepos/linux_wiki/
-  260  ./install_centos7_repos.sh 
-  261  ll
-  262  git pull
-  263  cat install_minimal_desktop.sh 
-  264  cat install_minimal_desktop.sh | tail --lines 2
-  265  cat install_minimal_desktop.sh | tail --lines 2 | head --lines 1
-  266  $(cat install_minimal_desktop.sh | tail --lines 2 | head --lines 1)
-  267  eval $(cat install_minimal_desktop.sh | tail --lines 2 | head --lines 1)
-  268  reboot now
-  269  vim /etc/warewulf/provision.conf 
-  270  ifconfig -a
-  271  ping github.com
-  272  ifconfig -a
-  273  cd /opt/gitrepos/
-  274  ifconfig | egrep "flags|packets"
-  275  git clone https://alex-aleyan@github.com/alex-aleyan/hdl.git
-  276  ifconfig | egrep "flags|packets"
-  277  ll
-  278  vim /etc/warewulf/provision.conf 
-  279  vim /etc/xinetd.d/tftp 
-  280  vim /etc/httpd/conf.d/warewulf-httpd.conf 
-  281  vim /etc/bashrc 
-  282  tal --lines 1 /etc/bashrc 
-  283  tail --lines 1 /etc/bashrc 
-  284  ll $(tail --lines 1 /etc/bashrc )
-  285  ll /etc/httpd/conf.d/warewulf-httpd.conf
-  286  vim $MODFILE
-  287  vim "$MODFILE"
-  288  vim /etc/httpd/conf.d/warewulf-httpd.conf 
-  289  echo $MODFILE
-  290  . /etc/bashrc 
-  291  echo $MODFILE
-  292  ll $MODFILE
-  293  pppperl -pi -e "s/cgi-bin>\$/cgi-bin>\n Require all granted/" $MODFILE
-  294  cp $MODFILE ~
-  295  ll ~
-  296  ll
-  297  perl -pi -e "s/cgi-bin>\$/cgi-bin>\n Require all granted/" $MODFILE
-  298  vimdiff ~/warewulf-httpd.conf $MODFILE
-  299  vim $MODFILE
-  300  perl -pi -e "s/Allow from all/Require all granted/" $MODFILE
-  301  vimdiff ~/warewulf-httpd.conf $MODFILE
-  302* perl -ni -e "print unless /^\s+Order allow,deny/" $MODFILE
-  303* 
-  304  ifconfig | egrep "flags|packets"
-  305  ifconfig enp0s8 192.168.10.10
-  306  ifconfig enp0s8 192.168.10.10 255.255.255.0
-  307  ifconfig -a
-  308  ifconfig enp0s8 192.168.10.10 255.255.255.0 up
-  309  ifconfig -a
-  310  systemctl restart xinetd
-  311  systemctl enable mariadb.service
-  312  systemctl restart mariadb
-  313  systemctl enable httpd.service
-  314  systemctl restart httpd
-  315  cd /opt/
-  316  ll
-  317  cd ohpc/
-  318  ll
-  319  cd admin/
-  320  ll
-  321  mkdir -p images/centos7
-  322  ll
-  323  ll images/
-  324  vim /etc/bashrc 
-  325  . /etc/bashrc 
-  326  tail /etc/bashrc 
-  327  echo $CHROOT
-  328  ll $CHROOT
-  329  ll -d $CHROOT
-  330  wwmkchroot centos-7 $CHROOT
-  331  vim /etc/resolv.conf
-  332  cp -p /etc/resolv.conf $CHROOT/etc/resolv.conf
-  333  ll $CHROOT/etc/resolve.conf
-  334  ll -d $CHROOT/etc/resolve.conf
-  335  ll -d $CHROOT/etc/resolv.conf
-  336  yum --installroot=$CHROOT groupinstall ohpc-slurm-client
-  337  echo $CHROOT
-  338  ll $CHROOT
-  339  echo $CHROOT
-  340  cd $CHROOT
-  341  cd ..
-  342  ll
-  343  ll centos7/
-  344  yum --installroot=$CHROOT install ntp 
-  345  yum --installroot=$CHROOT install kernel 
-  346  yum --installroot=$CHROOT install lmod-ohpc
-  347  wwinit all
-  348  vim /etc/bashrc 
-  349  wwnvf
-  350  wwsh
-  351  wwsh file import /etc/passwd
-  352  wwsh file print
-  353  wwsh file list
-  354  wwsh file show passwd
-  355  wwsh file list
-  356  wwsh file import help
-  357  wwsh file import /etc/shadow
-  358  wwsh file list
-  359  vim /etc/environment 
-  360  tail /etc/bashrc 
-  361  tail /etc/bashrc | tail -lines 2
-  362  tail /etc/bashrc | tail --lines 2
-  363  tail /etc/bashrc | tail --lines 2 >> /etc/environment 
-  364  vim /etc/environment 
-  365  vim /etc/profile
-  366  vim /etc/bashrc 
-  367  . /etc/bashrc 
-  368  ll $WW_CONF
-  369  vim $WW_CONF
-  370  wwbootstrap `uname -r`
-  371  env
-  372  env | grep WW
-  373  vim /etc/bashrc 
-  374  env | grep CHROOT
-  375  chroot $CHROOT
-  376  uname -r
-  377  wwbootstrap `uname -r`
-  378  wwvnfs --chroot $CHROOT
-  379  ifoc
-  380  ifconfig 
-  381  vim /etc/warewulf/provision.conf 
-  382  vim /etc/sysconfig/network
-  383  wwsh file list
-  384  wwwwwsh node new node01 --ipaddr=192.168.10.11
-  385  ifconfig 
-  386  wwsh node new node01 --ipaddr=192.168.10.11 --hwaddr=080027fd18cc
-  387  wwsh node print *
-  388  wwsh node print node01
-  389  wwsh node set node01 -D eth2
-  390  wwsh node print node01
-  391  wwsh node print node01 --ipaddr=192.168.10.11 -D eth2
-  392  wwsh node set node01 --ipaddr=192.168.10.11 -D eth2
-  393  wwsh node set node01 -D eth2
-  394  wwsh node print node01
-  395  wwsh node set node01 --ipaddr=192.168.10.11 -D eth2
-  396  wwsh node set node01 --ipaddr=192.168.10.12 -D eth2
-  397  wwsh node print node01
-  398  ll /etc/sysconfig/network
-  399  vim /etc/sysconfig/network
-  400  cat /etc/sysconfig/network
-  401  wwsh file import /etc/sysconfig/network
-  402  wwsh vnfs list
-  403  wwsh provision set --vnfs=centos7 --bootstrap=$(uname -r) --files=dynamic_hosts,passwd,group,shadow,network
-  404  wwsh provision set node01 --vnfs=centos7 --bootstrap=$(uname -r) --files=dynamic_hosts,passwd,group,shadow,network
-  405  pwd
-  406  ll
-  407  mkdir provision_files
-  408  l
-  409  ll
-  410  cd provision_files/
-  411  ll
-  412  systemctl restart dhcpd
-  413  wwsh pxe update
-  414  tail -f /var/log/messages 
-  415  wwsh node print
-  416  wwsh node set node01 --hwaddr=08:00:27:FD:18:CC
-  417  wwsh
-  418  systemctl restart dhcpd
-  419  history > ~/history_warewulf.txt
+  111  chkconfig firewalld disable
+  112  systemctl stop firewalld
+  113  systemctl disable firewalld
+  114  perl -pi e "s/SELINUX=enforced/SELINUX=disabled/" /etc/selinux/config 
+  115  perl -pi -e "s/SELINUX=enforced/SELINUX=disabled/" /etc/selinux/config 
+  116  cat /etc/selinux/config 
+  117  perl -pi -e "s/SELINUX=enforcing/SELINUX=disabled/" /etc/selinux/config 
+  118  cat /etc/selinux/config 
+  119  reboot now
+  120  ifco
+  121  yum provides ifconfig
+  122  yum repolist all
+  123  cd /etc/yum.repos.d/
+  124  ll
+  125  vim CentOS-Media.repo 
+  126  yum repolist all
+  127  yum provides ifconfig
+  128  yum install net-tools
+  129  ifconfig 
+  130  service network restart
+  131  ifconfig 
+  132  vim /etc/sysconfig/network-scripts/ifcfg-enp0s8
+  133  systemctl network restart
+  134  systemctl network.service restart
+  135  service network restart
+  136  ifconfig 
+  137  ifconfig 
+  138  reboot now
+  139  yum install ohpc-base ohpc-warewulf
+  140  echo "server 192.168.1.10" >> /etc/ntp.conf 
+  141  systemctl enable ntpd.service
+  142  systemctl  restart ntpd
+  143  vim /etc/warewulf/provision.conf 
+  144  ifconfig 
+  145  vim /etc/xinetd.d/tftp 
+  146  ifconfig enp0s8 192.168.1.10 netmask 255.255.255.0 up
+  147  ifconfig 
+  148  vim /etc/dhcp/dhcpd.conf 
+  149  systemctl restart xinetd
+  150  systemctl enable mariadb
+  151  systemctl restart mariadb
+  152  systemctl enable httpd
+  153  systemctl restart httpd
+  154  systemctl enable dhcpd
+  155  vim /etc/bashrc 
+  156  . /etc/bashrc 
+  157  echo $CHROOT
+  158  mkdir -p $CHROOT
+  159  wwmkchroot centos-7 $CHROOT
+  160  wwsh file list
+  161  wwinit all
+  162  wwsh file list
+  163  wwsh file add /etc/shadow
+  164  wwsh file import /etc/shadow
+  165  wwsh file list
+  166  vim /etc/bashrc 
+  167  . /etc/bashrc 
+  168  ll $WW_CONF
+  169  echo "drivers += updates/kernel/" >> $WW_CONF
+  170  echo "drivers += overlay" >> $WW_CONF
+  171  wwbootstrap $(uname -r)
+  172  wwvnfs --chroot $CHROOT
+  173  wwsh node new node01 --ipaddr=192.168.1.11 --hwaddr=08:00:27:FD:18:CC -D eth0 
+  174  wwsh node print
+  175  wwsh node set node01 --netmask=255.255.255.0
+  176  wwsh node print
+  177  wwsh provision set node01 --vnfs=centos7 --bootstrap=$(uname -r) --files=dynamic_hosts,passwd,group,shadow,network
+  178  systemctl restart dhcpd
+  179  wwsh pxe update
+  180  tail -f /var/log/messages 
+  181  systemctl isolate graphical.target
+  182  history > ~/history_warewulf.txt
