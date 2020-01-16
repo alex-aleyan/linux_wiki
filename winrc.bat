@@ -1,5 +1,6 @@
 @echo off
 
+REM place it at "C:\Users\<USERNAME>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\winrc.bat"
 
 set tcl_shell=C:\Tcl\bin
 call :doesFileExist %tcl_shell%
