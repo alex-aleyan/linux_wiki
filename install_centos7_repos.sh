@@ -1,6 +1,6 @@
 #!/bin/bash
 
-yum-config-manager --add-repo http://mirror.centos.org/centos-7/7.7.1908/os/x86_64
+yum-config-manager --add-repo http://mirror.centos.org/centos-7/7/os/x86_64
 
 yum-config-manager --add-repo http://dl.fedoraproject.org/pub/epel/7/x86_64
 
