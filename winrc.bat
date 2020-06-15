@@ -1,5 +1,7 @@
 @echo off
 
+rem C:\Users\<USER>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+
 rem Set path:
 set tcl_shell=C:\Tcl\bin
 call :doesFileExist %tcl_shell%
