@@ -99,6 +99,22 @@ function rmEverywhere()
 }
 export -f rmEverywhere
 
+function sshterm ()
+{
+    num=0
+    x_coor_width="60"
+    y_coor_height="20"
+    y_coor_offset="0"
+    x_coor_offset="$((num*550))"
+    
+    ssh_cmd="ssh -t -X"
+    host_name="$1"
+    gnome-terminal --title="$host_name" \
+                   --geometry=${x_coor_width}x${y_coor_height}+$x_coor_offset+$y_coor_offset \
+                   -e " bash -c \"eval $ssh_cmd $host_name ; exec bash \" " &
+}
+export -f sshterm
+
 # SSH Chain Example:
 # alias TRChain='ssh -A -t -XY <user_name>@<host1> ssh -A -t -X <user_name>@<host2> ssh -A -X <user_name>@<host3>'
 
