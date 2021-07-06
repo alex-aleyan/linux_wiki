@@ -120,7 +120,7 @@ export -f sshterm
 
 
 unset MAILCHECK
-PATH=/usr/local/bin:$PATH
+PATH="/usr/local/bin:$PATH"
 
 
 REDCOLOR='\[\033[1;31m\]'
@@ -134,13 +134,10 @@ ENDCOLOR='\[\033[0m\]'
 
 
 case $USER in
-	"admin")
-		export PROMPT_COMMAND='PS1="${BLACKBGCOLOR}${PURPLECOLOR}[${YELLOWCOLOR}${USER}@${HOSTCODE}:\W ${PURPLECOLOR}<${CYANCOLOR}\!${PURPLECOLOR}>]${CYANCOLOR}$USERCODE$ENDCOLOR "'
-		echo -en "\033]0;$USER:$PWD ${CLEARCASE_ROOT##*/}\a"
-	;;
+    "admin")
+        export PS1='\[\033[40m\]\[\033[1;35m\][$(whoami)@$(hostname):\W]\[\033[0m\]'
+	export PROMPT_COMMAND="resize &>/dev/null; $PROMPT_COMMAND"
+    ;;
 esac
-
-:w
-:0
 
 
