@@ -13,3 +13,6 @@ set wildmenu
 set showmatch
 set hlsearch                                                                                                                                                                                                    
 set incsearch
+
+" from https://github.com/DJMcMayhem/dotFiles/blob/master/.vimrc#L187
+autocmd VimResized * wincmd =
