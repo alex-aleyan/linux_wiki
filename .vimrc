@@ -1,3 +1,4 @@
+set backspace=indent,eol,start
 set background=dark
 highlight normal ctermfg=grey ctermbg=black cterm=none
 set tabstop=1     #defines number of spaces a tabstop takes
